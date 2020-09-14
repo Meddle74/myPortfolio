@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    background-image: url("https://c.wallhere.com/photos/9e/15/fantasy_art-86457.jpg!d");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .bg2 {
+    background-image: url("/assets/images/upper_banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
