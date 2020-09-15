@@ -1,9 +1,7 @@
 body {
     background: url(https://c.wallhere.com/photos/9e/15/fantasy_art-86457.jpg!d) no-repeat;
-    /* Keep the inherited background full size. */
     background-attachment: fixed;
     background-size: cover;
-    /* background-position: 0% +80%; */
     background-position: center;
     height: 100%;
 }
@@ -76,14 +74,5 @@ body {
 
     .text {
         color: black;
-    }
-
-    body {
-        background: url(https://c.wallhere.com/photos/9e/15/fantasy_art-86457.jpg!d) no-repeat;
-        /* Keep the inherited background full size. */
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
     }
 }
