@@ -30,33 +30,159 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-
   </div>
 </nav>
 
-<body>
+<main>
+  <section class="container text">
+    <h2 class="h1-responsive font-weight-bold mb-5">Portfolio</h2>
+    <article class="row text-center">
+      <article-project class="col-lg-4 col-md-6 mb-lg-0 mb-4">
+        <div>
+          <img src="assets/images/endpoint.jpg" class="img-fluid " alt="Example Project 1">
+        </div>
+        <div class="glass card-body pb-0">
+          <h4 class="font-weight-bold my-3">EndPoint Technologies</h4>
+          <p>Tasked with creating a branded website and marketing materials for local networking service
+            company.
+          </p>
+          <button type="button" class="btn btn-custom btn-sm mb-3 text" data-toggle="modal" data-target="#project1">
+            View project
+          </button>
+        </div>
+      </article-project>
+      <article-project class="col-lg-4 col-md-6 mb-md-0 mb-4">
+        <div>
+          <img src="https://via.placeholder.com/700x466.png?text=Future Project" class="img-fluid"
+            alt="Example Project 2">
+        </div>
+        <div class="glass card-body pb-0">
+          <h4 class="font-weight-bold my-3">Project 2</h4>
+          <p>Lorem ipsum dolor sit amet, falli percipitur an nec, veniam alterum suavitate vim et, veri
+            feugiat ex his mentitum.
+          </p>
+          <button type="button" class="btn btn-custom btn-sm mb-3 text" data-toggle="modal" data-target="#project2">
+            View project
+          </button>
+        </div>
+      </article-project>
+      <article-project class="col-lg-4 col-md-6 mb-md-0 mb-4">
+        <div>
+          <img src="https://via.placeholder.com/700x466.png?text=Future Project" class="img-fluid"
+            alt="Example Project 3">
+        </div>
+        <div class="glass card-body pb-0">
+          <h4 class="font-weight-bold my-3">Project 3</h4>
+          <p>Lorem ipsum dolor sit amet, falli percipitur an nec, veniam alterum suavitate vim et, veri
+            feugiat ex his mentitum.
+          </p>
+          <button type="button" class="btn btn-custom btn-sm mb-3 text" data-toggle="modal" data-target="#project3">
+            View project
+          </button>
+        </div>
+      </article-project>
+    </article>
+  </section>
+</main>
 
+<footer class="py-2 bg-dark text fixed-bottom">
+  <div class="text-center">
+    <small>Copyright &copy;&nbsp;2020&nbsp;SingleTree Designs</small>
+  </div>
+</footer>
 
-
-
-
-
-  <footer class="py-2 bg-dark text-white-50 fixed-bottom">
-    <div class="text-center">
-      <small>Copyright &copy;&nbsp;2020&nbsp;SingleTree Designs</small>
-    </div>
-  </footer>
-
-  <!-- Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
 </body>
+
+
+<!-- Project Modals -->
+
+<!-- Project 1 -->
+<div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Endpoint Technologies</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://via.placeholder.com/700x466.png?text=Future Project" class="img-fluid"
+          alt="Example Project 3">
+        <p class="mt-3">
+          Created website using a custom Joomla template. Also used some custom PHP to create login page
+          and calendar tracking.
+        </p>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Project 1 -->
+<!-- Project 2-->
+<div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Example Project 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://via.placeholder.com/700x466.png?text=Future Project" class="img-fluid"
+          alt="Example Project 2">
+        <p class="mt-3">
+          Lorem ipsum dolor sit amet, falli percipitur an nec, veniam alterum suavitate vim et, veri feugiat ex his
+          mentitum.
+        </p>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Project 2 -->
+<!-- Project 3 -->
+<div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Example Project 3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://via.placeholder.com/700x466.png?text=Future Project" class="img-fluid"
+          alt="Example Project 3">
+        <p class="mt-3">
+          Lorem ipsum dolor sit amet, falli percipitur an nec, veniam alterum suavitate vim et, veri feugiat ex his
+          mentitum.
+        </p>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Project 3 -->
 
 </html>

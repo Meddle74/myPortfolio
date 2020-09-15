@@ -30,42 +30,52 @@
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
-
   </div>
 </nav>
 
-<body>
-
-  </div>
-
-
-  <div class="container float-center text mt-3">
-    <div class="row">
-      <div class="glass col-lg-12">
-        <h1>Contact Me</h1>
-        <form id="mail">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Enter name">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text">I will never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary mb-4" id="submit" value="click">Submit</button>
-        </form>
+<main>
+  <section class="container text mt-3">
+    <article class=" glass col-lg-12">
+      <div class="row">
+        <contact-form class=" col-lg-8">
+          <h1>Contact Me</h1>
+          <form id="mail">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text">I will never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary mb-4" id="submit" value="click">Submit</button>
+          </form>
+        </contact-form>
+        <social-media class="col-lg-4 mt-5 text-center">
+          <h6 class="mb-3"></h6>
+          <a target="_blank" href="https://www.facebook.com/meddle74">
+            <img src="assets/images/facebook.png" class="mx-auto d-block mb-5" alt="facebook link">
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/patrick-lloyd-bb1b945a">
+            <img src="assets/images/linkedin.png" class="mx-auto d-block mb-5" alt="linkedin link">
+          </a>
+          <a target="_blank" href="https://members.theproducebox.com/index.php/member/referral">
+            <img src="assets/images/instagram.png" class="mx-auto d-block mb-5" alt="instagram link">
+          </a>
       </div>
-    </div>
-  </div>
-</body>
+      </social-media>
+    </article>
+  </section>
+</main>
 
-<footer class="py-2 bg-dark text-white-50 fixed-bottom">
+<footer class="py-2 bg-dark text fixed-bottom">
   <div class="text-center">
     <small>Copyright &copy;&nbsp;2020&nbsp;SingleTree Designs</small>
   </div>
@@ -81,6 +91,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 </script>
-</body>
 
 </html>

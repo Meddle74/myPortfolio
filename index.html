@@ -30,89 +30,86 @@
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-
     </div>
 </nav>
+
 <main>
-    <section class="container float-center text mt-3">
+    <section class="container float-center text mt-5">
         <div class="row">
-            <div class="glass col-lg-12">
-                <h1>About Me</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
-            </div>
+            <nested-section class="glass col-lg-12">
+                <h1 class="mb-3">About Me</h1>
+                <article class="row">
+                    <article-section class="col-lg-4 d-none d-sm-block">
+                        <h6 class="font-weight-bold lead">Random Facts</h6>
+                        <div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="card-img-top"
+                                        src="https://i.pinimg.com/originals/c6/53/b1/c653b1f07005bc1bba2b28a344d9ff43.jpg"
+                                        alt="I-40 Highway Sign">
+                                    <p class="mt-3">I have driven I-40 from Barstow, CA to Wilmington, NC</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="card-img-top"
+                                        src="https://upload.wikimedia.org/wikipedia/en/3/33/Silicon_valley_title.png"
+                                        alt="Silicon Valley">
+                                    <p class="mt-3">I used to live in CA and work in Silicon Valley. Traffic was
+                                        terrible.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="card-img-top"
+                                        src="https://media.tenor.com/images/b9516f71aa5c6421f82e31684d8da925/tenor.gif"
+                                        alt="Mickey Mouse Playing Piano">
+                                    <p class="mt-3">I sometimes play the piano...poorly, but I have fun</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </article-section>
+                    <article-section class="col-lg-4">
+                        <h6 class="font-weight-bold lead text-left">Professional Background</h6>
+                        <p>
+                            I am currently a Development Team Manager for a local E-commerce website. I help manage a
+                            custom ERP
+                            that we designed using a PHP framework. My background in Project Management and System
+                            Analysis have helped
+                            me with a methodical, planned approach to programming.
+                        </p>
+                        <p>
+                            Fueled by the desire to never stop learning I am constantly seeking out new skills. This
+                            helps to build my knowledge and
+                            keep up to date with the latest trends and further my professional development.
+                        </p>
+                    </article-section>
+                    <article-section class=" col-lg-4 mb-4">
+                        <h6 class="font-weight-bold lead text-left mb-3">Programming Info</h6>
+                        <ul class="float-center">
+                            <li>MySQL, PHP</li>
+                            <li>Web Frameworks: Yii 1, Symfony 4</li>
+                            <li>WordPress, HTML, CSS, Bootstrap 3/4</li>
+                            <li>JavaScript, jQuery, BackboneJS / UnderscoreJS</li>
+                            <li>Misc: Mandrill, BrowserStack, Twillio, MailChimp, OnFleet</li>
+                        </ul>
+                        <img src="assets/images/jpatricklloyd.jpg" class="mx-auto d-block" alt="Patrick Lloyd Headshot">
+                    </article-section>
+                </article>
+            </nested-section>
         </div>
     </section>
+</main>
 
-    <section class="container float-center text mt-3">
-        <article class="row justify-content-between">
-            <article-section class="glass col-lg-3 mt-1 d-none d-sm-block">
-                <h6 class="font-weight-bold lead">Fun Facts</h6>
-                <div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100"
-                                src="https://i.pinimg.com/originals/c6/53/b1/c653b1f07005bc1bba2b28a344d9ff43.jpg"
-                                alt="First slide">
-                            <p class="mt-3">I have driven I-40 from Barstow, CA to Wilmington, NC</p>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100"
-                                src="https://upload.wikimedia.org/wikipedia/en/3/33/Silicon_valley_title.png"
-                                alt="Second slide">
-                            <p class="mt-3">I used to live CA and work in Silicon Valley</p>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100"
-                                src="https://media.tenor.com/images/b9516f71aa5c6421f82e31684d8da925/tenor.gif"
-                                alt="Third slide">
-                            <p class="mt-3">I sometimes play the piano...poorly, but I have fun</p>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </article-section>
-            <article-section class="glass col-lg-3 mt-3 mb-4">
-                <h6 class="font-weight-bold lead">Programming Experience</h6>
-                <ul class="float-center">
-                    <li>MySQL, PHP</li>
-                    <li>MVC Framworks: Yii 1, Symfony 4</li>
-                    <li>WordPressHTML, CSS3, Bootstrap 3/4</li>
-                    <li>JavaScript, jQuery, BackboneJS / UnderscoreJS</li>
-                    <li>HTML, CSS3, Bootstrap 3/4</li>
-                    <li>Misc: Mandrill, BrowserStack, TestFlight, Twillio</li>
-                </ul>
-            </article-section>
-        </article>
-    </section>
-
-    <footer class="py-2 bg-dark text-white-50 fixed-bottom">
+    <footer class="py-2 bg-dark text fixed-bottom">
         <div class="text-center">
-            <small>Copyright &copy;&nbsp;2020&nbsp;SingleTree Designs</small>
+          <small>Copyright &copy;&nbsp;2020&nbsp;SingleTree Designs</small>
         </div>
-    </footer>
+      </footer>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -124,7 +121,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-
-</main>
 
 </html>
